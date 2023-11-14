@@ -35,7 +35,7 @@ img {
 }
 
 .div-header h3 {
-  color: orange;
+  color: rgb(0, 255, 221);
 }
 
 /* Header */
@@ -98,7 +98,7 @@ header .content {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(images/2.jpg);
+    url(images/1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,7 +108,7 @@ header .content {
 }
 
 header .content h2 {
-  color: orange;
+  color: rgb(0, 255, 221);
   font-size: 30px;
   padding: 10px 0;
 }
@@ -138,7 +138,7 @@ header .content label {
 }
 
 .about-box .about-body h3 {
-  color: orange;
+  color: rgb(0, 255, 221);
   position: relative;
   bottom: 30px;
   font-size: 23px;
@@ -178,7 +178,7 @@ header .content label {
 }
 
 .services-box .services-title h2 {
-  color: orange;
+  color: rgb(0, 255, 221);
   margin: 10px;
 }
 
@@ -219,13 +219,13 @@ header .content label {
   font-size: 17px;
 }
 
-/* Chefs */
-.chefs {
+/* Shopkeeper */
+.shopkeeper {
   padding: 40px;
   background-color: #f8f8f8;
 }
 
-.chefs-box {
+.shopkeeper-box {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -233,41 +233,41 @@ header .content label {
   text-wrap: wrap;
 }
 
-.chef-card {
+.shopkeeper-card {
   width: 280px;
   margin-top: 30px;
 }
 
-.chef-card .chef-image {
+.shopkeeper-card .shopkeeper-image {
   width: 280px;
   height: 280px;
 }
 
-.chef-card .chef-image img {
+.shopkeeper-card .shopkeeper-image img {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   width: 100%;
   height: 100%;
 }
 
-.chef-card .chef-body {
+.shopkeeper-card .shopkeeper-body {
   padding: 20px;
   margin-top: -5px;
   border: 5px solid #f2f2f2;
 }
 
-.chef-card .chef-body h3 {
+.shopkeeper-card .shopkeeper-body h3 {
   display: inline-block;
   margin-bottom: 10px;
   font-size: 17px;
 }
 
-.chef-card .chef-body p {
+.shopkeeper-card .shopkeeper-body p {
   font-size: 15px;
 }
 
-/* Menu */
-.menu-box {
+/* Product */
+.product-box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -276,7 +276,7 @@ header .content label {
   flex-wrap: wrap;
 }
 
-.menu-box .card {
+.product-box .card {
   display: flex;
   background: #f2f2f2;
   padding: 30px 30px 15px 30px;
@@ -284,45 +284,45 @@ header .content label {
   margin: 11px;
 }
 
-.menu-box .card-image img {
+.product-box .card-image img {
   width: 230px;
   transition: all 0.4s ease-in-out;
 }
 
-.menu-box .card-image img:hover {
+.product-box .card-image img:hover {
   transform: scale(1.1);
 }
 
-.menu-box .card-body {
+.product-box .card-body {
   padding: 20px;
 }
 
-.menu-box .card-body i {
+.product-box .card-body i {
   color: orange;
   font-size: 12px;
 }
 
-.menu-box .card-body label {
+.product-box .card-body label {
   margin-top: 5px;
 }
 
-.menu-box .card-body label.cash {
+.product-box .card-body label.cash {
   display: block;
   font-weight: bold;
 }
 
-.menu-box .card-body label.del {
+.product-box .card-body label.del {
   display: block;
   font-weight: bold;
   text-decoration: line-through;
   margin-right: 10px;
 }
 
-.menu-box .card-body .cash-div {
+.product-box .card-body .cash-div {
   display: flex;
 }
 
-.menu-box .card-body a {
+.product-box .card-body a {
   display: inline-block;
   margin-top: 20px;
   padding: 7px 20px;
@@ -332,7 +332,7 @@ header .content label {
   font-weight: bold;
 }
 
-.menu-box .card-body label.discount {
+.product-box .card-body label.discount {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -381,7 +381,7 @@ header .content label {
 }
 
 .contact-body h2 {
-  color: orange;
+  color: rgb(0, 255, 221);
 }
 
 form .form-content {
@@ -419,14 +419,14 @@ form .form-content span::before {
   left: 0;
   width: 0%;
   height: 2px;
-  background: orange;
+  background: rgb(0, 255, 221);
   transform: 0.4s;
 }
 
 form .form-content input:focus ~ label,
 form .form-content input:valid ~ label {
   top: -5px;
-  color: orange;
+  color: rgb(0, 255, 221);
 }
 
 form .form-content input:focus ~ span::before,
@@ -438,7 +438,7 @@ form .form-content input:valid ~ span::before {
   padding: 10px 20px;
   font-size: 17px;
   border: none;
-  background: #ff6600;
+  background: rgb(0, 255, 221);
   color: white;
   border: 5px;
   cursor: pointer;
@@ -484,7 +484,7 @@ form .form-content input:valid ~ span::before {
 }
 
 .footer-box h3 span {
-  color: orange;
+  color: rgb(0, 255, 221);
 }
 
 .footer-box .f-div {
@@ -495,7 +495,7 @@ form .form-content input:valid ~ span::before {
 .footer-box .f-div h4 {
   margin-bottom: 5px;
   font-size: 16px;
-  color: orangered;
+  color: rgb(0, 255, 221);
 }
 
 .footer-box .f-div a {
@@ -678,53 +678,53 @@ form .form-content input:valid ~ span::before {
 }
 
 @media (max-width: 570px) {
-  .menu-box {
+  .product-box {
     padding: 10px;
   }
 
-  .menu-box .card .card-body h4 {
+  .product-box .card .card-body h4 {
     font-size: 14px;
   }
 
-  .menu-box .card .card-body label {
+  .product-box .card .card-body label {
     font-size: 13px;
   }
 
-  .menu-box .card {
+  .product-box .card {
     padding: 20px 20px 5px 20px;
   }
 
-  .menu-box .card-image img {
+  .product-box .card-image img {
     width: 180px;
     transition: all .4s ease-in-out;
   }
 
-  .menu-box .card-image img:hover {
+  .product-box .card-image img:hover {
     transform: scale(1.1);
   }
 
-  .menu-box .card-body {
+  .product-box .card-body {
     padding: 20px;
   }
 
-  .menu-box .card-body i {
+  .product-box .card-body i {
     font-size: 10px;
   }
 
-  .menu-box .card-body label.cash {
+  .product-box .card-body label.cash {
     font-size: 14px;
   }
 
-  .menu-box .card-body .cash-div {
+  .product-box .card-body .cash-div {
     display: flex;
   }
 
-  .menu-box .card-body a {
+  .product-box .card-body a {
     font-size: 12px;
     padding: 6px 12px;
   }
 
-  .menu-box .card-body label.discount {
+  .product-box .card-body label.discount {
     font-size: 15px;
   }
 
@@ -753,49 +753,49 @@ form .form-content input:valid ~ span::before {
 }
 
 @media (max-width: 450px) {
-  .menu-box {
+  .product-box {
     padding: 5px;
   }
 
-  .menu-box .card .card-body h4 {
+  .product-box .card .card-body h4 {
     font-size: 12px;
   }
 
-  .menu-box .card .card-body label {
+  .product-box .card .card-body label {
     font-size: 11px;
   }
 
-  .menu-box .card {
+  .product-box .card {
     padding: 10px 10px 0px 10px;
   }
 
-  .menu-box .card-image img {
+  .product-box .card-image img {
     width: 150px;
     transition: all .4s ease-in-out;
   }
 
-  .menu-box .card-body {
+  .product-box .card-body {
     padding: 10px;
   }
 
-  .menu-box .card-body i {
+  .product-box .card-body i {
     font-size: 8px;
   }
 
-  .menu-box .card-body label.cash {
+  .product-box .card-body label.cash {
     font-size: 12px;
   }
 
-  .menu-box .card-body .cash-div {
+  .product-box .card-body .cash-div {
     display: flex;
   }
 
-  .menu-box .card-body a {
+  .product-box .card-body a {
     padding: 5px 10px;
     font-size: 11px;
   }
 
-  .menu-box .card-body label.discount {
+  .product-box .card-body label.discount {
     font-size: 12px;
   }
 
